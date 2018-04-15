@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+    body{
+
+        }
+
+     header{
+    background: linear-gradient( #95d67c,#65a953);
+    height:82px;
+    border-bottom: 1px solid #133783;
+    }
+    .header-block{
+        width:1360px;
+    }
+
+    .boot {
+        width:1360px;
+    }
+    .logo {
+        width:300px;
+        float:left;
+        height:81px;
+        padding-left:300px;
+
+    }
+    .logo h1{
+        font-size:44px;
+        text-align:center;
+        color:white;
+    }
+
+    .content-block{
+        height:700px;
+
+    }
+    .pic-block{
+        width: 900px;
+        height: 700px;
+        float: left;
+    }
+    .regis-block{
+        width:591px;
+        height:700px;
+        float:right;
+
+
+    }
+    .regis-block h2{
+    font-size:40px;
+    }
+
+    .regis-block .free{
+    font-size:20px;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom:20px;
+    }
+
+    .account input[type='text']{
+        margin-bottom: 15px;
+        padding:10px;
+        font-size:16px;
+        margin-left:0px;
+        border-radius:5px;
+        border: 1px solid #bdc7d8;
+
+    }
+    .account input[type='password']{
+        margin-bottom:15px;
+        padding:10px;
+        font-size:16px;
+        border-radius: 5px;
+        margin-left:0px;
+        border: 1px solid #bdc7d8;
+    }
+    .account .mobile, .account .password{
+        width: 84%  !important;
+    }
+    .account label{
+        font-weight:bold;
+        font-size:18px;
+        margin-bottom:15px;
+    }
+    .account a{
+        text-decoration: none;
+        color:#3677bc;
+    }
+    .account input[type='radio']{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .account .by-clicking{
+        color:green;
+    }
+    .account input[type='submit']{
+        padding: 15px 22px;
+        background: linear-gradient( #95d67c,#65a953);
+        border: 1px solid #3b6e22;
+        border-radius:5px;
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #fff;
+
+
+    }
+
+    </style>
+<title>front page</title>
+</head>
+<body>
+<div class="header-block">
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" class="boot">
+        <a class="navbar-brand" href="#"><h3>EASYCAR</h3></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+          <a class="nav-link" href="#"><h5>Home</h5><span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="user_login.html"><h5>Login</h5></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class= "content-block">
+<div class= "pic-block">
+
+</div>
+<div class= "regis-block">
+<h2> Create an account</h2>
+
+<p class="free"> Register Yourself to make use of the service !</p>
+
+<div class ="account">
+    <form>
+        <input type="text" name="first-name" placeholder="First name"/>
+        <input type="text" name="last-name" placeholder="Lastname"/></br>
+
+        <input type="text" name="mobile"  class="mobile" placeholder="Mobile number"/>
+        <input type="text" name="email"  class="mobile" placeholder="Email address"/></br>
+
+        <input type="password" name="password" class="password" placeholder="New Password"/>
+
+        <input type = "password" name="confirm-pass" class="password" placeholder="Confirm Password"/></br>
+        <br>
+
+        <label>Birthday</label><br>
+        <input type="date" name="date" /> <span class= "why-do-i"><a href="#">Birthday date</a></span><br>
+
+        <input type="radio" name="gender" value="Female"/> <label> Female</label>
+        <input type="radio" name="gender" value= "male"/> <label> Male</label></br>
+
+        <span class="by-clicking"> By clicking create an account you agree to our <a href="#"> Terms</a> and that you have read our <a href="#"> Data Policy</a> including our <a href="#"> Cookie Use</a></span>
+
+        <br>
+        <input type="submit" value="Create an account"/>
+
+        <br>
+    </form>
+</div>
+</div>
+</div>
+</body>
+</html>
