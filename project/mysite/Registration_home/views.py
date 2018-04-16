@@ -8,3 +8,8 @@ def index(request):
 def user(request):
     log= 'home/user_login.html'
     return render_to_response(log)
+
+
+def clog(request):
+    p = 'home/company_login.html'
+    return render_to_response(p)
